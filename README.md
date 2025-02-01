@@ -14,13 +14,13 @@ A web-based quiz application with gamification features, built using React.js.
 
 ## 🚀 Setup Instructions  
 1. Clone the repository:  
-   ```sh
    git clone git@github.com:maaz12344/Quiz-App.git
 2. Install dependencies:
    npm install
-3. Run the project:
+3. Run the server and client:
+   node proxy.js
    npm start
-4. Open http://localhost:3000 in your browser.
+5. Open http://localhost:3000 in your browser.
 
 ***Screenshots of the Quiz app****
 ![s1](https://github.com/user-attachments/assets/9614cf83-583b-4f3e-9ad8-60ea9447fec4)
@@ -33,4 +33,4 @@ https://github.com/user-attachments/assets/8d022b41-37d7-406d-bcd8-d40e293f8431
 
 
 Thanyou for your time
-Maaz Khokhar
+**Maaz Khokhar**
