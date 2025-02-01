@@ -1,0 +1,134 @@
+body {
+  font-family: 'Arial', sans-serif;
+  /* background-color: #f4f4f4; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  background-image: url(https://img.freepik.com/free-photo/yellow-steel-stationery-blue-table_23-2148169521.jpg?t=st=1738400608~exp=1738404208~hmac=342796d7bdf510caece1bf71c937e3a2e40f1310ddfc7e30636458ef79811653&w=740);
+  background-size: cover;
+}
+
+.quiz {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  /* border: 2px solid red; */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.question-section {
+  margin-bottom: 20px;
+}
+
+.question-count {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+.question-text {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #222;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.answer-section button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.answer-section button:hover {
+  background-color: #0056b3;
+}
+
+.timer {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #d9534f;
+}
+
+.quiz-over {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.start-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #218838;
+}
+
+#name{
+  background-color: beige;
+  font-size: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .quiz {
+    max-width: 85%;
+    padding: 25px;
+  }
+  #name{
+    font-size: 6vw;
+    /* width: 50%; */
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  .question-text {
+    font-size: 5vw;
+  }
+
+  .answer-section button {
+    font-size: 5vw;
+  }
+
+  .timer {
+    font-size: 5vw;
+  }
+
+  .start-button {
+    margin:10px ;
+    font-size: 5vw;
+  }
+}
